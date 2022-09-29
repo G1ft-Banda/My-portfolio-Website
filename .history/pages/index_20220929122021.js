@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,6 +21,7 @@ export default function Home() {
           <li className="social-links">
             <i class="fa-brands fa-github"></i>
             <Link href="https://github.com/G1ft-Banda">
+              {" "}
               <a>Github</a>
             </Link>
           </li>
