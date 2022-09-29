@@ -6,11 +6,11 @@ export default function Home() {
     <div>
       <Head>
         <title>Gift Banda</title>
-        <meta name="description" content="Olga Banda Portfolio" />
+        <meta name="description" content="Olga Banda Portfolio website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <img className="avatar" src="/astronaut.jpg" />
+        <Image className="avatar" src="/astronaut.jpg" width={150} />
         <ul>
           <li className="social-links">
             <i class="fa-solid fa-envelope"></i>
